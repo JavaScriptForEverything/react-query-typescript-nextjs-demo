@@ -1,11 +1,11 @@
 import Layout from '../layout'
 
-const Home = () => {
+const AddHero = () => {
 
 	return (
 		<Layout>
-			<h2>Home Page</h2>
+			<h2>Add Hero</h2>
 		</Layout>
 	)
 }
-export default Home
+export default AddHero
