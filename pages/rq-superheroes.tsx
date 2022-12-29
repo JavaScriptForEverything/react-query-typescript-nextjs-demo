@@ -1,18 +1,10 @@
-import type { Hero } from '../types'
-import { useQuery } from 'react-query'
-import axios, { type AxiosResponse } from 'axios'
-
-import Layout from '../layout'
 import { Fragment } from 'react'
 
-const getSuperheroes = (): Promise<AxiosResponse<Hero[], any> | undefined> => {
-	return axios.get<Hero[]>('http://localhost:5000/superheroes')
-}
+import { useSuperheroes } from '../hooks'
+import Layout from '../layout'
+
 const RQSuperheroes = () => {
-	const { data, isLoading, isError, error } = useQuery<AxiosResponse<Hero[], any>|undefined, Error>(
-		'superheroes', 
-		getSuperheroes
-	)
+	const { data, isLoading, isError, error } = useSuperheroes()
 
 	if(isError) return <Layout><p>Error: {error.message}</p></Layout>
 	if(isLoading) return <Layout><p>loading ...</p></Layout>
