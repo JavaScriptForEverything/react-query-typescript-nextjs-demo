@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="550"
-   height="275"
-   viewBox="0 0 550 275"
+   width="1280"
+   height="720"
+   viewBox="0 0 1280 720"
    version="1.1"
    preserveAspectRatio="xMidYMid"
    id="svg16"
@@ -42,9 +42,9 @@
      inkscape:window-height="702"
      id="namedview18"
      showgrid="false"
-     inkscape:zoom="1.026087"
-     inkscape:cx="277.47194"
-     inkscape:cy="170.04777"
+     inkscape:zoom="0.51304348"
+     inkscape:cx="592.05196"
+     inkscape:cy="337.72218"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -53,7 +53,7 @@
      id="title2">React Query</title>
   <g
      id="g998"
-     transform="matrix(1.0236711,0,0,1.0141733,78.842771,69.517099)">
+     transform="matrix(2.3759902,0,0,2.6745901,184.19918,178.69561)">
     <rect
        y="-65.629539"
        x="-74.12986"
