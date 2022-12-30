@@ -14,23 +14,8 @@
       "id": 3,
       "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
-    },
-    {
-      "name": "flush",
-      "alterEgo": "barry alan",
-      "id": 4
-    },
-    {
-      "name": "shazam",
-      "alterEgo": "billy",
-      "id": 5
-    },
-    {
-      "name": "riaz",
-      "alterEgo": "unknown",
-      "id": 6
-    }
-  ],
+    }  
+	],
   "users": [
     {
       "id": "vishwas@example.com",

@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import AddHero from '../components/addHero'
 
 import { useSuperheroes } from '../hooks'
 import Layout from '../layout'
@@ -12,6 +13,9 @@ const RQSuperheroes = () => {
 	return (
 		<Layout>
 			<h2>RQ Superheroes</h2>
+
+			<AddHero />
+
 
 			<div>
 				{data?.data.map(hero => (
