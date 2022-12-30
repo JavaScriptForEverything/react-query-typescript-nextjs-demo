@@ -2,7 +2,7 @@
 
 <p align="center">
 	<img
-		width="200px"
+		width="100%"
 		src="https://github.com/JavaScriptForEverything/react-query-typescript-nextjs-demo/blob/main/public/images/react-query-typescript.svg"
 		alt="/public/react-query.svg"
 	/>
