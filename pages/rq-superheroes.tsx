@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { Fragment } from 'react'
 import { useMutation, useQueryClient } from 'react-query'
 import AddHero from '../components/addHero'
 

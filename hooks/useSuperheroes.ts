@@ -1,5 +1,5 @@
-import axios, { type AxiosResponse } from 'axios'
 import type { Hero } from '../types'
+import axios, { type AxiosResponse } from 'axios'
 import { useQuery } from 'react-query'
 
 const getSuperheroes = (): Promise<AxiosResponse<Hero[], any> | undefined> => {
@@ -11,5 +11,4 @@ export const useSuperheroes = () => {
 		'superheroes', 
 		getSuperheroes
 	)
-
 }
